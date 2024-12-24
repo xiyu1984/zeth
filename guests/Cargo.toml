@@ -11,6 +11,6 @@ methods = ["reth-ethereum", "reth-optimism"]
 
 [features]
 debug-guest-build = []
-default = [
-    "risc0-build/docker"
-]
+# default = [
+#     "risc0-build/docker"
+# ]
