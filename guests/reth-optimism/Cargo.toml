@@ -15,14 +15,16 @@ codegen-units = 1
 opt-level = 3
 
 [dependencies.risc0-zkvm]
-git = "https://github.com/risc0/risc0"
-rev = "8801e2e3cd030acea2f03f01bd91f37e47e79e23"
+# git = "https://github.com/risc0/risc0"
+# rev = "8801e2e3cd030acea2f03f01bd91f37e47e79e23"
+path = "../../../../infra/risc0/risc0/zkvm"
 default-features = false
 features = ["std", "unstable"]
 
 [dependencies.risc0-zkvm-platform]
-git = "https://github.com/risc0/risc0"
-rev = "8801e2e3cd030acea2f03f01bd91f37e47e79e23"
+# git = "https://github.com/risc0/risc0"
+# rev = "8801e2e3cd030acea2f03f01bd91f37e47e79e23"
+path = "../../../../infra/risc0/risc0/zkvm/platform"
 features = ["sys-getenv"]
 
 [dependencies.zeth-core]
